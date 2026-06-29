@@ -10,11 +10,10 @@ function combineUsers(...args) {
 
   //  Loop through args(argument) one array at a time
   for (const array of args) {
-
     // Merge the users from current array into users
     combinedObject.users = [
       ...combinedObject.users, //Spread/Keep the exisitng usernames
-      ...array //Add usernames from the current array
+      ...array, //Add usernames from the current array
     ];
   }
   // Add today's date in the format M/D/YYYY
