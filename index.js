@@ -16,7 +16,7 @@ function combineUsers(...args) {
       ...array, //Add usernames from the current array
     ];
   }
-  // Add today's date in the format M/D/YYYY
+  // Add today's date in the format m/d/yyyy
   combinedObject.merge_date = new Date().toString("M/d/yyyy");
 
   // Return the combined object
